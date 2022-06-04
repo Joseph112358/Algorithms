@@ -22,7 +22,8 @@ i = 0, j = 0 \
 **j is now 5, so increment i -> i + 1 = 1** \
 **This time, j's range will b 0 to n-1-i = 6-1-1 = 4, so only 4 loops (not 5 as previous)** \
 
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+## Trace Table
+| i  | j |is arr[j] > arr[j +1]?| arr         |
+| ---| - | ---------------------|-------------| 
+| 0  | 0 |        No            |[2,4,3,1,5,4]|
+| 0  | 1 |        Yes           |[2,3,4,1,5,4]|
