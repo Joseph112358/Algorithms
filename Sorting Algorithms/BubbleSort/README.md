@@ -41,4 +41,4 @@ i = 0, j = 0 \
 | 3  | 1 |        No            |[1,2,3,4,4,5]|
 | 4  | 0 |        No            |[1,2,3,4,4,5]|
 
-**You will notice that by the time i = 2, and j = 1, the array is already sorted, but this might not always be the case, so we have to continue iterating through.
+**You will notice that by the time i = 2, and j = 1, the array is already sorted, but this might not always be the case, so we have to continue iterating through.**
